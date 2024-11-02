@@ -20,7 +20,7 @@ for i in range(8): #создаем поле
             print(board [i])
 board_print() 
 ###################
-print(coordinates)
+#print(coordinates)
 ###################
 while ships>0:
     x, y = map(int, input().split())
